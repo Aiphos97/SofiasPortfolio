@@ -9,10 +9,12 @@
 }
 
 body {
-  @apply dark:bg-black dark:text-white;
+  @apply dark:bg-black dark:text-black;
   background-color: #ecd7ec; /* Light Pink Background */
 }
-
+body {
+  color: #333; /* Dark Gray Text in Light Mode */
+}
 .gradient-circle {
   position: absolute;
   pointer-events: none;
